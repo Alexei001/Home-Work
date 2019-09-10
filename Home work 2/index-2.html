@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style-2.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a8ae33b5bd.js"></script>   
+</head>
+<body>
+    <div class="Register">
+    <fieldset>
+        <legend>Registration Details</legend>
+    <form action="/action_page.php">
+       <label for="university"><span>University:</span></label>
+         <input type="text" id="university" name="University"><br><br>
+         <label for="institute">Institute:</label>
+           <input type="text" id="institute" name="Institute"><br><br>
+         <label for="Branch:">Branch:</label>
+       <select name="Branch" id="Branch" style="width: 300px">
+           <option value="select1" >--select1--</option>
+           <option value="select1">--select1--</option>
+           <option value="select1">--select1--</option>
+           <option value="select1">--select1--</option>
+       </select> <br><br>
+        <label for="Degree">Degree:</label>
+        <select name="Degree" id="Degree" style="width: 150px">
+            <option value="select1">--select1--</option>
+            <option value="select1">--select1--</option>
+            <option value="select1">--select1--</option>
+            <option value="select1">--select1--</option>
+        </select>
+        <input type="radio"   value="Pursuing" name="degree">Pursuing 
+        <input type="radio"   value="Completed" name="degree"> Completed
+        <br><br>
+        Average CPI:
+        <input type="number" name="Average CPI" min="1" max="10"> Upto 
+        <input type="number" name="Upto" min="1" max="5"> Th semester
+        <br><br>
+        Experience: <input type="number" value="Experience" min="1" max="15">
+        <br><br>
+       <label for="Website">
+           <span>You Website Or Blog</span>
+        </label>
+        <input type="url" id="Website" name="home page" placeholder="https://"> 
+    </form>
+    </fieldset>
+        <button ><i class="fas fa-arrow-circle-left"></i></button> Step 2 <button><i class="fas fa-arrow-circle-right"></i></button>        
+</div> 
+</body>
+</html>

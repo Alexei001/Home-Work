@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    color: red;
+  }
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    height: 500px;
+  }
+  .half {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    font-size: 16px;
+  }
+  
+  .third {
+    display: inline-block;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    font-size: 16px;
+  }
+  
+  .side {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .third,
+  .half {
+      background-color: grey;
+  }
+  .border {
+    border: 5px solid rebeccapurple;
+  }
+
+  .top {
+      vertical-align: top;
+  }
+  
