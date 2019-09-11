@@ -1,3 +1,17 @@
-*{
-    box-sizing: border-box;
+body{
+
+    color: bisque;
+    font-size: 30px;
 }
+
+table{
+    width: 50%;
+    height: 500px;
+    border: 2px solid white;
+}
+td, th {
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+}
+
