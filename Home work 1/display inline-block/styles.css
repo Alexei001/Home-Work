@@ -6,6 +6,8 @@ body {
     box-sizing: border-box;
   }
   .container {
+    text-align: right;
+  
     display: inline-block;
     width: 100%;
     font-size: 0;
@@ -19,7 +21,8 @@ body {
   }
   
   .third {
-    display: inline-block;
+    
+    display:inline-block;
     width: calc(100% / 3);
     height: calc(100% / 3);
     font-size: 16px;
