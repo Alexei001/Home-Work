@@ -1,6 +1,39 @@
 
 *{ 
     box-sizing:border-box;
+    color: bisque;
+    font-size: 30px;
  }
-
- 
+.conteiner{
+    display: flex;
+    flex-direction:row; 
+    text-align: center;
+}
+  .conteiner1{
+      display: flex;
+      flex-wrap: wrap;
+     background-color: aqua;
+     width: 50%;
+     height: 500px;
+  }
+  .conteiner2{
+    display:flex;
+    flex-wrap: wrap;  
+    background-color: rgb(17, 82, 82);
+    width: 50%;
+    height: 500px;
+ }
+ .box1{
+    padding-top:12%; 
+     background-color: blue;
+     width: 50%;
+     height: 50%;
+     border: 2px solid white;
+ }
+ .box2{
+     padding-top:6.5%;
+    background-color: blue;
+    width: calc(100%/3);
+    height: calc(100%/3);
+    border: 2px solid white;
+}
