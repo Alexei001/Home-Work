@@ -1,0 +1,17 @@
+body{
+    background-color:white;
+}
+.container{
+    display: flex;
+}
+.container1{
+    background-color: orangered;
+    width: 50%;
+    height: 100px;
+}
+.container2{
+    background-color: orangered;
+    width: 50%;
+    height: 100px; 
+    margin-left: 2px; 
+}
