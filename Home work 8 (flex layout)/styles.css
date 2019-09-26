@@ -1,10 +1,12 @@
 body{
-    background-color:white;
+    background-color:yellow;
 }
 .container{
     display: flex;
+    width: 100%;
+   
 }
-.container1{
+.container .container1{
     background-color: orangered;
     width: 50%;
     height: 100px;
