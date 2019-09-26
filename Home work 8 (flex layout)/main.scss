@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+  }
+  .container{
+      display: flex;
+      .container1{
+          background-color: orangered;
+          width: 50%;
+          height: 100px;
+      }
+      .container2{
+        background-color: orangered;
+        width: 50%;
+        height: 100px;
+      }
+
+  }
+  .container3{
+    background-color: rgb(219, 223, 13);
+    width: 50%;
+    height: 100px; 
+  }
+  .container4{
+    background-color: rgb(219, 223, 13);
+    width: 50%;
+    height: 100px; 
+  }

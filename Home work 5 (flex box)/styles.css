@@ -35,5 +35,5 @@
     background-color: blue;
     width: calc(100%/3);
     height: calc(100%/3);
-    border: 2px solid white;
+    border: 2px solid rgb(124, 17, 17);
 }
