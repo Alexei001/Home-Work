@@ -1,0 +1,111 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+}
+.container{
+    width:100% ;
+    .hero-block{
+        height: 100vh;
+        width: 100%;
+        background-image: url('https://windeurope.org/summit2018/wp-content/uploads/gws-summit-2018-banner-plenary.jpg');
+        background-repeat: no-repeat;
+        background-size:cover; 
+        .header{
+            display:flex;
+            justify-content: flex-end;
+            button{
+                padding: 15px 69px 12px;
+                margin: 38px 52px 0 0;
+                background: #FFFFFF;
+                border-radius: 100px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    display: flex;
+                    align-items: center;
+                    color: #001958;
+            }
+            
+        }
+        .hero-block-information{
+            display: flex;
+            img{
+                margin-right: 39px;
+            }
+            .hero-block-details{
+                display: flex;
+                flex-flow:column wrap;
+                border:2px solid red;
+                 span{
+                    font-family: Poppins;
+                    color: #FFFFFF;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 40px;
+                    line-height: 60px;
+
+                 }
+                 .details{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                button{
+                    padding: 14px 69px 13px;
+                    margin:50px 0 12px 0;
+                    background: #FFFFFF;
+                    border-radius: 100px;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    display: flex;
+                    align-items: center;
+                     color: #001958;
+                }
+            }
+        }      
+    }
+    .conference-details{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      font-family: Poppins;
+      padding: 39px 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #001958;
+        .conference-in-members{
+            span {
+            align-content:space-around;
+              font-family: Poppins;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 30px;
+              color: #4F4F4F;
+            }
+     }
+    
+    }
+    .numbers{
+        display:flex;
+        justify-content:space-around;
+        span{
+            font-family: Poppins;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            color: #828282;
+        }
+    }  
+}
+

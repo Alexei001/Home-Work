@@ -1,0 +1,120 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+.container .hero-block {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://windeurope.org/summit2018/wp-content/uploads/gws-summit-2018-banner-plenary.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .hero-block .header {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .hero-block .header button {
+  padding: 15px 69px 12px;
+  margin: 38px 52px 0 0;
+  background: #FFFFFF;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #001958;
+}
+.container .hero-block .hero-block-information {
+  display: flex;
+}
+.container .hero-block .hero-block-information .imag1 {
+  display:flex;
+  align-items: flex-start;
+  margin-right: 39px;
+}
+.container .hero-block .hero-block-information .hero-block-details {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top:0;
+}
+.container .hero-block .hero-block-information .hero-block-details span {
+  font-family: Poppins;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.container .hero-block .hero-block-information .hero-block-details span .b1,.b2,.b3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
+.container .hero-block .hero-block-information .hero-block-details button {
+  margin: 50px 0 12px 0;
+  padding: 14px 69px 13px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #001958;
+}
+  .container .conference-details span{
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  padding: 39px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #001958;
+  
+   }
+.container .conference-details .conference-numbers {
+    display:flex; 
+  }
+.container .conference-details .conference-numbers .a1,.a2,.a3,.a4{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #4F4F4F;
+          width:calc(100%/4) ;
+   }
+.container .conference-details .conference-numbers h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 75px;
+        color: #828282;
+   }
+/*.container .conference-details .conference-numbers h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    color: #828282;
+}*/
+
+/*# sourceMappingURL=styles.css.map */
