@@ -453,14 +453,243 @@ body{
 
 
 /*   intro styles start*/
+.wrapper_intro{
+    max-width: 1109px;
+    margin: 0 auto;
+}
 .intro{
-  height: 100vh;
+  min-height: 100vh;
   background: url(../img/background.jpg) no-repeat center;
   background-size: cover;
+  padding-top:263px;
+}
+
+.intro_title{
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+.intro_subtitle{
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 106px;
+}
+.latest_works_link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: .75;
+}
+.latest_works_link:hover, .latest_works_link:focus, .latest_works_link:active{
+    opacity: .75;
+    color: #C66C49;
 }
 
 /*   intro styles end*/
 
+/*   about styles start*/
+.about{
+    margin-top: 93px;
+    margin-bottom: 115px;
+}
+.about_wrap{
+    max-width: 1109px;
+    margin:0 auto;
+    background: #FFFFFF;
+}
+ .about_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 76px;
+ }
+ .about_text{
+     max-width:1107px ;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #333333;
+ }
 
+/*   intro styles end*/
+
+/*   skills styles start*/
+.skills{
+    padding-bottom: 145px;
+    background: #FFFAF2;; 
+}
+.skills_wrap{
+    max-width: 1109px;
+    margin:0 auto;
+}
+.skills_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 86px;
+    padding-top:93px;
+}
+.skills_bar{
+    display:flex;
+    justify-content: space-between;
+}
+.skilss_bar_progress {
+    min-width: 634px;
+}
+.skilss_bar_progress .profile {
+        margin-bottom: 65px;
+    
+}
+.name_progress{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 21px;
+}
+.name_knows{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.progress_bar{
+    width: 446px;
+    height: 24px;
+    background-color:#F5D6AB; 
+}
+.UX{
+    width:381px;
+    background-color:#C66C49;
+    height: 24px;
+}
+.UI{
+    width:351px;
+    background-color:#C66C49;
+    height: 24px;
+}
+.Front-end{
+    width:286px;
+    background-color:#C66C49;
+    height: 24px;
+}
+.engineer, .paper, .adobe, .html{
+    min-width: 446px;
+}
+
+/*   skills styles end*/
+
+/*   portofolio styles start*/
+.portfolio{
+    background-color: #FFFFFF;
+    padding-top: 93px;
+    padding-bottom:145px; 
+}
+.portfolio_wrapper{
+    max-width: 1109px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_title{
+    margin-bottom: 86px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.portfolio_subtitle{
+    margin-bottom:48px; 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.portfolio_text{
+    margin-bottom:235px; 
+    width:349px;
+    height: 137px; 
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #444343;
+}
+.arow{
+    height: 24px;
+    width:62px;
+    display:flex;
+    justify-content:space-between;
+}
+.arow_right_link:hover, 
+.arow_right_link:focus,
+.arow_right_link:active {
+    opacity:.5;
+}
+.arow_left_link:hover,
+.arow_left_link:focus,
+.arow_left_link:active {
+    opacity:0.5;
+}
+.portfolio_images{
+    display:flex;
+    margin: 181px 0 0 125px;  
+}
+.small-pic{
+    margin-bottom:26px;
+    margin-right: 30px; 
+}
+.small_pic{
+    margin-top:26px;
+}
+/*   portofolio styles end*/
+
+/*footer style start */
+.footer{
+    padding:93px 0 70px 0;
+    background:#FFFAF2;;
+}
+.footer_wrapper{
+    max-width: 1109px;
+    margin:0 auto;
+}
+.get_in_touch_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom:51px; 
+}
+.footer_get_in_touch_block{
+    display: flex;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 95px;
+}
+.get_in_touch_text{
+    margin-right:302px; 
+}
+.footer_social_network{
+    margin-right:300px; 
+}
+.img{
+    display: flex;
+    justify-content:flex-end;
+}
+.back_to_top_link:hover, 
+.back_to_top_link:active, 
+.back_to_top_link:focus{
+    opacity:0.5;
+}
+
+/*footer style end*/
 
 /*# sourceMappingURL=styles.css.map */

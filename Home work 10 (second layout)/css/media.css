@@ -1,43 +1,133 @@
 
-@media only screen and (max-width: 360px){
-  .container .hero-block .header{
-      display:none;
-  }
-  .container .hero-block .hero-block-information{
-      display:flex;
-      flex-direction: column;
+@media only screen and (max-width: 378px){
+    .header{
+        display:none;
     }
-   .container .hero-block .hero-block-information {
-       padding-left: 10px;
+    /*intro styles start*/
+    .intro{
+        min-height: none;
+        padding-top:115px;
+    }
+    .intro_title{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .intro_subtitle{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align:center;
+        margin-bottom: 41px;
+    }
+    .latest_works_link{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        justify-content: center;
+
+    }
+    /*intro styles end*/
+
+    /*about styles start */
+    .about{
+        margin-top:25px;
+        margin-bottom:8px;;
+    }
+    .about_title{
+        text-align: center;
+        font-weight: 600;
+        margin-bottom:19px;
+    }
+    .about_text{
+        font-size: 12px;
+        line-height: 15px;
+        margin:0 29px 8px 34px;
+    }
+    /*about styles end */
+
+    /*skills styles start */
+    .skills {
+        padding-bottom: 25px;
+    }
+    .skills_bar{
+        flex-direction:column;
+        align-items: center;
+    }
+    .skills_title {
+        margin-bottom:25px;
+        padding-top:25px;
+        text-align:center;
+    }
+    .skills_img { 
+        width: 224px;
+        height: 218px;
+        text-align: center;
+    }
+    .skilss_bar_progress{
+        min-width:375px;
+    }
+    .name_progress {
+        margin:0 32px 10px 32px;
+        font-size: 12px;
+    }
+    .name_knows {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .engineer, .paper, .adobe, .html {
+         min-width: 211px;
+    }
+    .progress_bar {
+        width: 211px;
+        height: 18px;
+        background-color: #F5D6AB;
+    }
+    .UX {
+        width: 180px;
+        height: 18px;
+    }
+    .UI{
+        width: 167px;
+        height: 18px;
+    }
+    .Front-end{
+        width: 136px;
+        height: 18px;
+    }
+    .skilss_bar_progress .profile {
+        margin-bottom: 35px;
+    
+}
+   /*skills styles end */
+
+   /*portfolio styles end */
+
+   .small-pic{
+       width: 170px;
+       height:70px;
    }
-   .container .hero-block .hero-block-information .hero-block-details button{
-    display:flex;
-    justify-content: center;
-    margin: 50px 90px 12px 0;
-    padding: 14px 51px 13px;
-    border: none;
+   .big-pic{
+       width:113px;
+       height: 169px;
    }
-   .container .conference-details span{
-    font-size: 30px;
-    line-height: 45px;
+   .big_pic{
+       width: 176px;
+       height: 117px;
    }
-   .container .conference-details .conference-numbers {
-       display: flex;
-       flex-wrap: wrap;
+   .small_pic{
+      width: 124px;
+      height: 70px; 
    }
-   .container .conference-details .conference-numbers .a1,.a2,.a3,.a4{
-    width:calc(100%/2) ;
- }
+   /*portfolio styles end */
 }
 @media only screen and (max-width: 420px){
 
- .container .hero-block .hero-block-information .imag1{
-    display:none;
- } 
+ 
 }
 @media only screen and (min-width: 420px){
-    .container .hero-block .hero-block-information .imag2{
-     display:none;      
-    }
+   
 
 }
