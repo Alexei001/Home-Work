@@ -614,6 +614,7 @@ body{
 }
 .portfolio_text{
     margin-bottom:235px; 
+    font-weight: normal;
     width:349px;
     height: 137px; 
     font-size: 18px;
@@ -648,6 +649,7 @@ body{
 .small_pic{
     margin-top:26px;
 }
+
 /*   portofolio styles end*/
 
 /*footer style start */
@@ -680,9 +682,11 @@ body{
 .footer_social_network{
     margin-right:300px; 
 }
+
 .img{
     display: flex;
     justify-content:flex-end;
+    align-items: flex-end;
 }
 .back_to_top_link:hover, 
 .back_to_top_link:active, 
