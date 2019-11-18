@@ -1,10 +1,10 @@
+ 
 
 
-
-     async function getPOD(dates, renderComponent) {
+/* async function getPOD(dates, renderComponent) {
         const result = await fetch(`#https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${dates}&hd=true`);
         const data = await result.json();
-        renderComponent(data)
+        renderComponent(data);
     }
     
     
@@ -23,20 +23,21 @@
         const copyrightComponent = document.createElement('p');
         copyrightComponent.innerText = copyright;
         container.append(...[titleComponent,imageComponent, copyrightComponent])
-    }
-    document.getElementById("prev-Day").onclick = prevDay;
-    document.getElementById("next-Day").onclick = nextDay;
-
-
+    } */
     
-    function prevDay(){
-
+    let today =new Date();
+    let year= today.getFullYear(), month = today.getMonth(), Date1 = today.getDate();
+    
+     function prevDay(){
+       showSlider(--Date1);
     }
     function nextDay(){
+      showSlider(++Date1);
+    } 
 
-    }
 
-    ['2019-11-16'].forEach(dates => {
-        getPOD(dates, renderPODComponent)
-    })
+    function showSlider()
+    console.log(dates);
+     getPOD(dates,renderPODComponent)
+  
   
