@@ -1,0 +1,29 @@
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+button{
+    background-color: chartreuse;
+    width: auto;
+    height: 30px;
+    margin: 5px;
+    border-radius: 30%;
+}
+#pod-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: blueviolet;
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.NewComp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
