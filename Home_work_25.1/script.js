@@ -6,8 +6,9 @@
     let arrDay = Day.split('-');
     //console.log(arrDay);
 
-
+    let Render = getPOD(Day, renderPODComponent);
     function prevDay(){
+      //delete Render;
       Date1 = --Date1;
       //console.log(Date1);
       Day = `${year}-${month+1}-${Date1}`;
@@ -16,17 +17,20 @@
     }
 
     function nextDay(){
+      //delete Render;
       Date1 = ++Date1;
       //console.log(Date1);
       Day = `${year}-${month+1}-${Date1}`;
       //console.log(Day);
       getPOD(Day, renderPODComponent);
     }
+    
+
     async function getPOD(Day, renderComponent) {
       const result = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${Day}`);
       const data = await result.json();
       renderComponent(data)
-  }
+    }
    
   function renderPODComponent(data) {
       const { url, copyright, title} = data;
